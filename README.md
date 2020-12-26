@@ -1,11 +1,11 @@
 # mavi-algilama
+##
+    import cv2
+    import numpy as np
 
-import cv2
-import numpy as np
+    cap = cv2.VideoCapture(0)
 
-cap = cv2.VideoCapture(0)
-
-while(1):
+    while(1):
 
     # Take each frame
     _, frame = cap.read()
@@ -30,4 +30,4 @@ while(1):
     if k == 27:
         break
 
-cv2.destroyAllWindows()
+    cv2.destroyAllWindows()
